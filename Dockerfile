@@ -18,7 +18,7 @@ RUN python -m venv /py && \
     fi && \
     rm -rf /tmp && \
     adduser \
-        --disable-password \
+        --disabled-password \
         --no-create-home \
         django-user
 
